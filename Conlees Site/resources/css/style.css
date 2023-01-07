@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+}
+* {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    border-bottom: solid white 3px;
+    background-color: rgba(137, 43, 226, 0.349);
+    padding-top: 1px;
+}
+h1 {
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 15px;
+}
+h3 {
+    background-color: rgba(137, 43, 226, 0.5);
+    border: solid white 2px;
+    color: white;
+}
+h2 {
+    text-decoration: underline;
+    color: white;
+}
+p {
+    color: white;
+}
+header {
+    text-align: center;
+    
+}
+#mugged {
+    max-height: 150px;
+    max-width: 150px;
+}
+.pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.facts {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    
+}
+.about {
+    background-color: rgba(137, 43, 226, 0.349);
+    box-shadow: black, 30px;
+    border: solid white 2px;
+    border-radius: 1%;
+    text-align: center;
+}
+.education {
+    background-color: rgba(137, 43, 226, 0.349);
+    box-shadow: black, 30px;
+    border: solid white 2px;
+    border-radius: 1%;
+    text-align: center;
+}
+.work {
+    background-color: rgba(137, 43, 226, 0.349);
+    box-shadow: black, 30px;
+    border: solid white 2px;
+    border-radius: 1%;
+    text-align: center;
+}
+.hobbies {
+    background-color: rgba(137, 43, 226, 0.349);
+    box-shadow: black, 30px;
+    border: solid white 2px;
+    border-radius: 1%;
+    text-align: center;
+}
